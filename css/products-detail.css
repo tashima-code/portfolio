@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+.products-detail .inner {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.products-detail .inner .img {
+  width: 50%;
+}
+
+.products-detail .inner .text {
+  width: 42%;
+  margin-left: 8%;
+}
+
+.products-detail .inner .text p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.products-detail .inner .text dl {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  margin-bottom: 76px;
+}
+
+.products-detail .inner .text dl dt {
+  width: 30%;
+}
+
+.products-detail .inner .text dl dd {
+  width: 70%;
+}
+
+.products-detail .inner .text .btn {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/* ---------------------
+スマートフォン
+--------------------- */
+@media screen and (max-width: 767px) {
+  .products-detail .inner {
+  flex-direction: column;
+}
+
+.products-detail .inner .img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.products-detail .inner .text {
+  width: 100%;
+  margin: 0;
+}
+}

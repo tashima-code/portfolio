@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.products {
+  margin-bottom: 100px;
+}
+
+.products .item-list {
+  margin: 0 0 40px 0;
+}
+
+.products .pagenation {
+  font-size:14px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
